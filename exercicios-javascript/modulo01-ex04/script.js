@@ -3,21 +3,23 @@
 
 // Tarefa 1: declare uma const chamada "primeiroNome" com o seu primeiro nome.
 
-
+const primeiroNome = "Andre"
 // Tarefa 2: declare uma const chamada "sobrenome" com o seu sobrenome.
-
+const sobrenome = "Rodrigues"
 
 // Tarefa 3: declare uma const chamada "nomeCompleto" que junte "primeiroNome" e
 //         "sobrenome" usando o operador +. Não esqueça de colocar um espaço " "
 //         entre os dois nomes (dica: primeiroNome + " " + sobrenome).
-
+const nomeCompleto = primeiroNome + " " + sobrenome
 
 // Tarefa 4: use console.log() para mostrar "nomeCompleto".
+console.log (nomeCompleto);
 
 
 // Tarefa 5: declare uma const chamada "nota" com um número (por exemplo, 8.5).
-
+const nota = 8.5;
 
 // Tarefa 6: use console.log() para mostrar a frase completa juntando texto e número
 //         com +, no formato: "O aluno " + nomeCompleto + " obteve nota " + nota + "."
+console.log(" O aluno " + nomeCompleto + " obteve nota " + nota + ".");
 

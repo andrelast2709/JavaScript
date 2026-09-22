@@ -9,6 +9,7 @@ const nota = 9;
 //         "Marina estuda no 2º ano B e tirou nota 9."
 //         Use as variáveis nome, turma e nota dentro de ${}, não digite os valores direto.
 //         Formato esperado: console.log(`${nome} estuda no ${turma} e tirou nota ${nota}.`);
+console.log(`${nome} estuda na ${turma} e tirou nota ${nota}.`);
 
 
 // Tarefa 2: crie uma const chamada "nascimento" com um ano (ex.: 2009) e uma const
@@ -16,10 +17,20 @@ const nota = 9;
 //         "Idade aproximada: X anos." em que X é o cálculo anoAtual - nascimento
 //         feito DENTRO do ${} (não calcule antes, calcule dentro das chaves).
 
+const nascimento = 2010;
+const anoAtual = 2026;
+console.log(` idade aproximada: ${nascimento - anoAtual}`);
 
 // Tarefa 3: crie uma template string de VÁRIAS LINHAS (sem usar +) parecida com:
 //         Boletim
 //         Aluno: Marina
 //         Nota: 9
 //         Guarde em uma const chamada "resumo" e mostre com console.log(resumo).
+const Aluno = "Andre";
+const Nota = 67;
 
+const resumo = `Boletim:
+Aluno: ${Aluno}
+Nota: ${Nota}`;
+
+console.log(resumo);
